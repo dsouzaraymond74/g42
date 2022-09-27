@@ -1,0 +1,25 @@
+//home_tabs
+
+.home_tabs{
+    width: 100%;
+    padding: 5.8% 8.5% 0 8.5%;
+    .home_tabs_container{
+        width: 100%;
+        .home_tabs_btn{
+            width: 50%;
+            justify-items: space-between;
+            button{
+                padding: 10px 36px 10px 0;
+                margin:0 36px 10px 0;
+                border-radius: 0;
+                cursor: pointer;
+                &:hover{
+                    border-bottom: 2px black;
+                }
+            }
+        }
+        h4{
+            font-weight: bold;
+        }
+    }
+}
